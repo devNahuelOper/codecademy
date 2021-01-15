@@ -1,4 +1,32 @@
+ul.menu-items {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+#name {
+  white-space: nowrap;
+  text-align: center;
+}
+
 main {
   background-image: url("headshot.jpg");
   background-size: cover;
+  background-position: center;
+}
+
+.tagline {
+  width: 50%;
+  margin: 0 auto;
+  color: #829292;
+  font-weight: 700;
+  font-size: 1.5em;
+  text-align: center;
+  -webkit-text-stroke: blue;
+  text-shadow: 1px -1px 2px black;
+  opacity: 0.9;
+}
+
+.far {
+  color: blue;
 }
