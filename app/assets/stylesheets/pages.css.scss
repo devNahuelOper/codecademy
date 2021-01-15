@@ -1,9 +1,14 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+* {
+  font-family: 'Roboto', sans-serif;
+}
 
 .header {
-
+  color: #444646;
+  color: #565757;
+  margin: unset;
 }
 
 .menu {
@@ -23,25 +28,80 @@ ul.menu-items {
 #name {
   white-space: nowrap;
   text-align: center;
+  background:#515f8cf7;
+  color: #e7ebeb;
+  padding: 4px;
+  margin: unset;
 }
 
 main {
   // background-image: url("https://github.com/devNahuelOper/DenizenConfidant-.git");
+  height: 520px;
   background-image: url("headshot.jpg");
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 12px 0;
 }
 
 .tagline {
-  width: 50%;
+  // width: 50%;
   margin: 0 auto;
   color: #829292;
+  color: #e7ebeb;
   font-weight: 700;
   font-size: 1.5em;
   text-align: center;
   -webkit-text-stroke: blue;
   text-shadow: 1px -1px 2px black;
   opacity: 0.9;
+}
+
+.btn {
+  background-color: #e7ebeb;
+  color: #444646;
+  padding: 8px;
+  border-radius: 8px;
+  font-weight: 600;
+  width: 132px;
+  margin: 0 auto;
+  box-shadow: 1px -1px 3px 0px #444646;
+}
+
+.link-group {
+  // display: flex;
+  // justify-content: space-around;
+  // align-items: center;
+  padding: 8px;
+  background: linear-gradient(to right, darkgrey,grey,lightgrey);
+}
+
+.link {
+  text-decoration: none;
+  margin: 8px;
+}
+
+.link span {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  // width: 55px;
+  color: transparent;
+  border-radius: 50%;
+  padding: 2px 4px;
+}
+
+#github span {
+  background-image: url(github.svg);
+}
+
+#linkedin span {
+  background-image: url(linkedin.svg);
+  // background-color: black;
 }
 
 .far {
