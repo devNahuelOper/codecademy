@@ -107,3 +107,26 @@ main {
 .far {
   color: blue;
 }
+
+
+.portfolio {
+
+}
+
+.banner {
+  position: relative;
+  overflow: auto;
+}
+
+.banner li {
+  list-style: none;
+}
+
+.banner ul li {
+  float: left;
+}
+
+#gifs {
+  display: flex;
+  justify-content: stretch;
+}
