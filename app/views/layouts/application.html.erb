@@ -11,7 +11,30 @@
 </head>
 <body>
 
+<header class="header">
+  <nav class="menu">
+    <ul class="menu-items">
+      <li>Home</li>
+      <li>About</li>
+      <li>Work</li>
+    </ul>
+  </nav>
+  <h1 id="name">Nahuel Gorosito</h1>
+</header>
+
 <%= yield %>
 
+<footer>
+  <div class="link-group">
+    <a href="https://github.com/devNahuelOper" class="link" id="github" tarket="_blank" title="GitHub"><span>...</span></a>
+    <a href="https://github.com/devNahuelOper" class="link" id="linkedin" tarket="_blank" title="LinkedIn"><span>...</span></a>
+
+   <%#> <a href="https://github.com/devNahuelOper" class="link" tarket="_blank" title="GitHub"><img src="github.svg" alt="GitHub"></a>
+    <a href="https://github.com/devNahuelOper" class="link" tarket="_blank" title="LinkedIn"><img src="linkedin.svg" alt="LinkedIn"></a> %>
+    
+    <a href="https://angel.co/u/nahuel-gorosito" class="link" tarket="_blank" title="AngelList"><i class="fab fa-angellist"></i></a>
+    <i class="far fa-copyright"></i>
+  </div>
+</footer>
 </body>
 </html>
