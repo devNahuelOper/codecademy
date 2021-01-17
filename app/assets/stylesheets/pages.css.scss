@@ -5,6 +5,10 @@
   font-family: 'Roboto', sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 .header {
   color: #444646;
   color: #565757;
@@ -12,8 +16,8 @@
 }
 
 .menu {
-  // display: flex;
-  // justify-content: center;
+  box-sizing: border-box;
+  padding-top: 16px;
 }
 
 ul.menu-items {
@@ -21,20 +25,25 @@ ul.menu-items {
   justify-content: space-around;
   list-style: none;
 }
-// .menu-items li {
-//   display: inline;
-// }
+.menu-items li a {
+  color: #515f8cf7;
+  background: #515f8cf7;
+  color: #e7ebeb;
+  padding: 8px 12px;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
 
 #name {
   white-space: nowrap;
   text-align: center;
-  background:#515f8cf7;
+  background: #515f8cf7;
   color: #e7ebeb;
   padding: 4px;
   margin: unset;
 }
 
-main {
+main.welcome {
   // background-image: url("https://github.com/devNahuelOper/DenizenConfidant-.git");
   height: 520px;
   background-image: url("headshot.jpg");
@@ -109,22 +118,37 @@ main {
 }
 
 
-.portfolio {
-
+main.portfolio {
+  background: white;
+  width: 100vw;
 }
 
 .banner {
   position: relative;
   overflow: auto;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: stretch;
+  // align-items: stretch;
+  // width: inherit;
 }
 
 .banner li {
   list-style: none;
 }
 
+// .banner ul {
+//   width: inherit;
+// }
+
 .banner ul li {
   float: left;
+  // width: inherit;
 }
+
+// .banner ul li img {
+//   width: inherit;
+// }
 
 #gifs {
   display: flex;

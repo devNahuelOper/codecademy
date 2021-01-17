@@ -9,6 +9,7 @@
 <script src="//unslider.com/unslider.js"></script>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'slideshow' %>
   <%= csrf_meta_tags %>
 </head>
 <body>
@@ -16,9 +17,12 @@
 <header class="header">
   <nav class="menu">
     <ul class="menu-items">
-      <li>Home</li>
-      <li>About</li>
-      <li>Work</li>
+      <li>
+        <%= link_to "Home", :root %>
+      </li>
+      <li>
+       <%= link_to "Work", :portfolio %>
+      </li>
     </ul>
   </nav>
   <h1 id="name">Nahuel Gorosito</h1>
