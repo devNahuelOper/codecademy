@@ -2,25 +2,50 @@
   font-family: 'Roboto', sans-serif;
 }
 
+
+a {
+  text-decoration: none;
+}
+
 .header {
-  color: #444646;
   color: #565757;
+  margin: unset;
+}
+
+.menu {
+  box-sizing: border-box;
+  padding: 16px;
+
 }
 
 ul.menu-items {
   display: flex;
   justify-content: space-around;
   list-style: none;
+  margin: unset;
+  border-bottom: 1px solid #2f78ff;
+}
+
+.menu-items li a {
+  color: #2f78ff;
+  padding: 8px 12px;
+  box-sizing: border-box;
+  border-radius: 12px;
 }
 
 #name {
   white-space: nowrap;
   text-align: center;
-  background: #5e639a;
+
+  color: #2f78ff;
+  padding: 4px;
+  margin: 0 auto;
+  font-size: 42px;
+  letter-spacing: 0.2em;
 }
 
-main {
-  height: 500px;
+main.welcome {
+  height: 520px;
   background-image: url("headshot.jpg");
   background-size: cover;
   background-position: center;
@@ -45,14 +70,14 @@ main {
 }
 
 .btn {
-  background-color: #e7ebeb;
-  color: #444646;
+  background-color: transparent;
+  background-color: #2f78ff;
+  color: #e7ebeb;
   padding: 8px;
   border-radius: 8px;
   font-weight: 600;
   width: 132px;
   margin: 0 auto;
-  box-shadow: 1px -1px 3px 0px #444646;
 }
 
 .link-group {
@@ -84,4 +109,27 @@ main {
 
 .far {
   color: blue;
+}
+
+main.portfolio {
+  background: white;
+  width: 100vw;
+}
+
+.banner {
+  position: relative;
+  overflow: auto;
+}
+
+.banner li {
+  list-style: none;
+}
+
+.banner ul li {
+  float: left;
+}
+
+#gifs {
+  display: flex;
+  justify-content: stretch;
 }
