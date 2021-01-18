@@ -10,25 +10,36 @@ a {
 }
 
 .header {
-  color: #444646;
+  // color: #444646;
   color: #565757;
   margin: unset;
 }
 
 .menu {
   box-sizing: border-box;
-  padding-top: 16px;
+  // padding-top: 16px;
+  // padding-bottom: 16px;
+  padding: 16px;
+  //  background: linear-gradient(to right, darkgrey,grey,lightgrey);
 }
 
 ul.menu-items {
   display: flex;
   justify-content: space-around;
   list-style: none;
+  margin: unset;
+  // padding-bottom: 16px;
+  border-bottom: unset;
+    // border-bottom: 1px solid #2f78ff50;
+  // border-bottom: 1px solid #56565754;
 }
+
+.menu-items li {
+  border-bottom: 1px solid #56565754;
+}
+
 .menu-items li a {
-  color: #515f8cf7;
-  background: #515f8cf7;
-  color: #e7ebeb;
+  color: #2f78ff;
   padding: 8px 12px;
   box-sizing: border-box;
   border-radius: 12px;
@@ -37,10 +48,17 @@ ul.menu-items {
 #name {
   white-space: nowrap;
   text-align: center;
-  background: #515f8cf7;
-  color: #e7ebeb;
+  // background: #515f8cf7;
+  // background: linear-gradient(to right, black, black, #2f78ff, black,black);
+  // background: linear-gradient(to right, black, #2f78ff, black, black, black, #2f78ff, black);
+  //  background: linear-gradient(to right, darkgrey,grey,lightgrey);
+  //  text-shadow: 1px -1px 2px black;
+  color: #2f78ff;
   padding: 4px;
-  margin: unset;
+  margin: 0 auto;
+  font-size: 42px;
+  letter-spacing: 0.2em;
+ 
 }
 
 main.welcome {
@@ -71,14 +89,19 @@ main.welcome {
 }
 
 .btn {
-  background-color: #e7ebeb;
-  color: #444646;
+  // background-color: #e7ebeb;
+  background-color: transparent;
+  // box-shadow: unset;
+  // color: #444646;
+  background-color: #2f78ff;
+  color: #e7ebeb;
+  // background: linear-gradient(to right, darkgrey,grey,lightgrey);
   padding: 8px;
   border-radius: 8px;
   font-weight: 600;
   width: 132px;
   margin: 0 auto;
-  box-shadow: 1px -1px 3px 0px #444646;
+  // box-shadow: 1px -1px 3px 0px #444646;
 }
 
 .link-group {
