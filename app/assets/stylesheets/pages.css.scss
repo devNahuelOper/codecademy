@@ -40,6 +40,7 @@ ul.menu-items {
 
 .menu-items li a {
   color: #2f78ff;
+  color: #565657fc;
   padding: 8px 12px;
   box-sizing: border-box;
   border-radius: 12px;
@@ -54,11 +55,12 @@ ul.menu-items {
   //  background: linear-gradient(to right, darkgrey,grey,lightgrey);
   //  text-shadow: 1px -1px 2px black;
   color: #2f78ff;
+  
   padding: 4px;
   margin: 0 auto;
   font-size: 42px;
   letter-spacing: 0.2em;
- 
+ text-shadow: 1px -1px 2px #565657fc;
 }
 
 main.welcome {
@@ -76,15 +78,18 @@ main.welcome {
 }
 
 .tagline {
+  background: #d5d5d86c;
   // width: 50%;
   margin: 0 auto;
   color: #829292;
-  color: #e7ebeb;
+  // color: #e7ebeb;
+  color: #565657fc;
+  // color: #2f78ff;
   font-weight: 700;
   font-size: 1.5em;
   text-align: center;
   -webkit-text-stroke: blue;
-  text-shadow: 1px -1px 2px black;
+  text-shadow: 0px 0px 20px #56565754;
   opacity: 0.9;
 }
 
