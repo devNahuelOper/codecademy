@@ -154,31 +154,34 @@ main.portfolio {
 .banner {
   position: relative;
   overflow: auto;
-  // display: flex;
+ 
   // flex-direction: column;
   // justify-content: stretch;
   // align-items: stretch;
-  // width: inherit;
+  width: inherit;
 }
 
 .banner li {
   list-style: none;
 }
 
-// .banner ul {
-//   width: inherit;
-// }
-
-.banner ul li {
-  float: left;
-  // width: inherit;
+.banner ul {
+   display: flex;
+   flex-direction: column;
+  width: inherit;
 }
 
-// .banner ul li img {
-//   width: inherit;
-// }
+.banner ul li {
+  // float: left;
+  width: inherit;
+}
+
+.banner ul li img {
+  width: inherit;
+}
 
 #gifs {
   display: flex;
-  justify-content: stretch;
+  flex-direction: column;
+  // justify-content: stretch;
 }
